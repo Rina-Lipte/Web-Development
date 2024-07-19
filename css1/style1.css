@@ -1,0 +1,32 @@
+body{
+    font-size: 50px;
+    
+}
+.mydiv{
+    background-color: aqua;
+    height: 300px;
+    border-style: solid;
+    border-width: 5px ;
+    /*border-left: 5px;
+    border-radius: 20px;*/
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+h1{
+    padding-left: 230px;
+}
+p{
+    padding-left: 200px;
+    padding-bottom:40px ;
+}
+.box{
+    height:100px;
+    width: 100px;
+    background-color: chartreuse;
+    color:white;
+    padding: 20px 50px 60px 100px;
+    box-sizing: border-box;
+    margin: 20px;
+
+}
+

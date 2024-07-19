@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url('https://c1.wallpaperflare.com/preview/255/726/486/city-dashboard-driver-driving.jpg');
+
+            background-size:cover;
+            background-repeat: no-repeat;
+            color:black;
+        }
+        .centered-heading {
+            text-align: center;
+            color:black;
+            padding: 20px;
+            
+        }
+        .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.registration-form {
+   
+    background-color:rgba(252, 245, 243, 0.848);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 600px;
+    border: 5px double rgb(0, 10, 11); /* Added border property */
+    
+}
+
+.registration-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #5cb85c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto; /* This centers the button horizontally */
+}
+
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="container">
+        
+        <form class="registration-form" action="main.java" method="get" >
+            <h1 class="centered-heading">🚗<u>License Registration Form</u>🚗</h1>
+            <h3>Full Name:</h3>
+            <label for="x">First Name:</label>
+            <input type="text" name="First name" id="x">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="y">Last Name:</label>
+            <input type="text" name="First name" id="y">
+            <br><br>
+
+            <h3>Date of Birth:</h3>
+            <label for="z">DOB:</label>
+            <input type="date" name="" id="z"><br><br>
+
+            <h3>Gender:</h3>
+            <input type="radio" name="gender" id="gen">
+            <label for="gen">Male</label>
+
+            <input type="radio" name="gender" id="ge">
+            <label for="ge">Female</label>
+
+            <input type="radio" name="gender" id="g">
+            <label for="g">Other</label><br><br>
+
+            <h3>Address:</h3>
+            <textarea name="Address" id="add"></textarea> <br>
+            
+
+
+            <h3>Contact Number:</h3>
+            <label for="cont">Mobile No.:</label>
+            <input type="" name="contact number" id="cont"><br><br>
+
+            <h3>Email Address:</h3>
+            <label for="email">Email:</label>
+            <input type="email" name="Email Address" id="email"><br><br>
+
+            <h3>Type of License:</h3>
+            <input type="checkbox" name="license" id="h">
+            <label for="h">Software License</label>
+
+            <input type="checkbox" name="license" id="li">
+            <label for="li">Business License</label><br><br>
+
+            <input type="checkbox" name="license" id="lic">
+            <label for="lic">Professional Service License</label>
+
+            <input type="checkbox" name="license" id="lice">
+            <label for="lice">Vehicle License</label><br><br>
+
+            <button>Submit</button>
+              </form>
+    </div>
+
+</body>
+</html>

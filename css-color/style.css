@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(114,35, 135,0.6);
+    background:linear-gradient(to right, orange,white, green);
+    height:100vh;
+    background:radial-gradient(orange, white,green);
+    
+
+}

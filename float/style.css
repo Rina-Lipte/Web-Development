@@ -1,0 +1,43 @@
+body{
+    border: 5px double blue;
+    background: radial-gradient(rgb(14, 14, 77),rgb(42, 42, 201),rgb(15, 206, 82),rgb(10, 231, 231));
+}
+.parents img{
+    float: right;
+}
+.parents p{
+    clear:right;
+}
+.main {
+    width: 400px;
+    height: 400px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-wrap:wrap-reverse ;
+    justify-content: center;
+    justify-content: right;
+    justify-content: left;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.box{
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+    color: aliceblue;
+    margin: 8px;
+    display:inline-block;
+}
+.box1{
+    flex-grow: 2;
+    flex-shrink: 2;
+    flex-basis: 200px;
+}
