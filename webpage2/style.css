@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/*font-family: "Montserrat", sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+/*font-family: "Fraunces", serif;*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-family: "Montserrat", sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    font-size: 14px;
+
+}
+.main{
+    background-color: white;
+    height: 50vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 20px;
+}
+.right{
+    padding: 50px 80px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px ;
+
+}
+.left>img{
+    height: 50vh;
+    width: 30vw;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.right h1{
+    font-weight: 700;
+    font-family: "Fraunces", serif;;
+}
+.num{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:20px;
+   
+}
+.num1{
+   color: hsl(151, 35%, 39%);  
+}
+.num2{
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+.mid{
+    color: hsl(228, 12%, 48%);
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.65;
+}
+.hed{
+    text-transform: uppercase;
+    color:hsl(228, 12%, 48%); 
+    letter-spacing: 0.2em;
+    padding-top: 30px;
+}
+.button{
+    
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsl(151, 35%, 39%);
+    color: hsl(30, 38%, 92%);
+    font-size: 16px;
+    font:900;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
