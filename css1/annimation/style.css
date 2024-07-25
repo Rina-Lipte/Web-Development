@@ -1,0 +1,41 @@
+h1{
+    font-size: 48px;
+    color: red;
+    transition: all 5s ease;
+}
+h1:nth-child(1):hover{
+    font-size: 60px;
+    transform: translateX(100px);
+}
+h1:nth-child(2):hover{
+    font-size: 60px;
+    transform: rotate(360deg);
+}
+h1:nth-child(3):hover{
+    font-size: 60px;
+    transform: scale(1.1);
+}
+
+.box{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    animation-name: moving-box;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+}
+@keyframes moving-box{
+    0%{
+        top:0px;
+        left:0px;
+        }
+    50%{
+        top: 100px;
+        left: 50%;
+    }
+    100%{
+        top:0%;
+        left:100%;
+    }
+}
