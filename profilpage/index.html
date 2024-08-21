@@ -7,19 +7,24 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="hero">
-        <nav>
-            <img src="./LOGO.jpg" alt="" height="100px" width="100px">
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">PORTFOLIO</A></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">HIRE ME</a></li>
-            </ul>
-        </nav>
+    <header>
+    <div class="logo">
+        < C O<span> D E R</span> />
+    </div>
+    
+    <div class="menu">
+        <ul>
+            <li><a href="#banner">{Home}</a></li>
+            <li><a href="#about">{About}</a></li>
+            <li><a href="#project">{Projects}</a></li>
+            <li><a href="#contact">{Contact}</a></li>
+        </ul>
+    </div>
+</header>
+<main>
+    <section>
         <div class="detel">
-            <h1>I,m Rina <span>Lipte</span></h1>
+            <h1> I,m Rina <span>Lipte </span></h1>
             <p>This is my official portfolio website to showes all <br> Details and work exiprins web development</p>
         <a href="./Rina lipte Resume -1.pdf">DOENLOAD CV</a>
         </div>
@@ -33,5 +38,105 @@
             </picture>
         </div>    
     </div>
+</section>
+</main>
+<h2 class="heading"> { A B O U T . M E } </h2>
+        <section id="about">
+            <div class="left">
+                <img src="./photo.png "  alt="image">
+            </div>
+            <div class="right">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolore sit necessitatibus pariatur consequatur minima asperiores perspiciatis quod illum? Velit totam culpa eligendi, praesentium quae mollitia magni quasi nam architecto iure ut quisquam quos quaerat pariatur, placeat ipsam. Accusamus corporis blanditiis repellendus error dicta quam amet placeat mollitia enim sequi?</p>
+                <div class="stats">
+                    <div class="stat">
+                        <h3>Strengths:</h3>
+                        <p>Decision Making Skills,Adaptability</p>
+                    </div>
+                    <div class="stat">
+                        <h3>Languages:</h3>
+                        <p>Telugu,Tamil,Hindi,English</p>
+                    </div>
+                    <div class="stat">
+                        <h3>Skills:</h3>
+                        <p>React,Angular,Node,PHP,Java</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <h2 class="heading"> { P R O J < / > E C T S } </h2>
+        <section id="projects">
+            <div class="project">
+                <img src="data:image/png;base64,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" alt="image">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim at illum cumque perferendis, autem veritatis nesciunt assumenda veniam eveniet? Laboriosam expedita nihil similique. Omnis, dolor. Odit ea totam quae. Quasi!</p>
+                <button>
+                    <a href="https://love-you3000.netlify.app/" target="_blank">See Live</a>
+                </button>
+            </div>
+            <div class="project">
+                <img src="../html_css_protfolio/project1.png" alt="image">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim at illum cumque perferendis, autem veritatis nesciunt assumenda veniam eveniet? Laboriosam expedita nihil similique. Omnis, dolor. Odit ea totam quae. Quasi!</p>
+                <button>
+                    <a href="https://love-you3000.netlify.app/" target="_blank">See Live</a>
+                </button>
+            </div>
+            <div class="project">
+                <img src="../html_css_protfolio/project1.png" alt="image">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim at illum cumque perferendis, autem veritatis nesciunt assumenda veniam eveniet? Laboriosam expedita nihil similique. Omnis, dolor. Odit ea totam quae. Quasi!</p>
+                <button>
+                    <a href="https://love-you3000.netlify.app/" target="_blank">See Live</a>
+                </button>
+            </div>
+            <div class="project">
+                <img src="../html_css_protfolio/project1.png" alt="image">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim at illum cumque perferendis, autem veritatis nesciunt assumenda veniam eveniet? Laboriosam expedita nihil similique. Omnis, dolor. Odit ea totam quae. Quasi!</p>
+                <button>
+                    <a href="https://love-you3000.netlify.app/" target="_blank">See Live</a>
+                </button>
+            </div>
+            <div class="project">
+                <img src="../html_css_protfolio/project1.png" alt="image">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim at illum cumque perferendis, autem veritatis nesciunt assumenda veniam eveniet? Laboriosam expedita nihil similique. Omnis, dolor. Odit ea totam quae. Quasi!</p>
+                <button>
+                    <a href="https://love-you3000.netlify.app/" target="_blank">See Live</a>
+                </button>
+            </div>
+            <div class="project">
+                <img src="../html_css_protfolio/project1.png" alt="image">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim at illum cumque perferendis, autem veritatis nesciunt assumenda veniam eveniet? Laboriosam expedita nihil similique. Omnis, dolor. Odit ea totam quae. Quasi!</p>
+                <button>
+                    <a href="https://love-you3000.netlify.app/" target="_blank">See Live</a>
+                </button>
+            </div>
+            <div class="project">
+                <img src="../html_css_protfolio/project1.png" alt="image">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim at illum cumque perferendis, autem veritatis nesciunt assumenda veniam eveniet? Laboriosam expedita nihil similique. Omnis, dolor. Odit ea totam quae. Quasi!</p>
+                <button>
+                    <a href="https://love-you3000.netlify.app/" target="_blank">See Live</a>
+                </button>
+            </div>
+            <div class="project">
+                <img src="../html_css_protfolio/project1.png" alt="image">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim at illum cumque perferendis, autem veritatis nesciunt assumenda veniam eveniet? Laboriosam expedita nihil similique. Omnis, dolor. Odit ea totam quae. Quasi!</p>
+                <button>
+                    <a href="https://love-you3000.netlify.app/" target="_blank">See Live</a>
+                </button>
+            </div>
+        </section>
+        <h2 class="heading"> { @ C O N T A C T  } </h2>
+        <section id="contact">
+           <form action="main.java" class="contact-form">
+              <input type="text" class="form-input" name="name" placeholder="Enter name">
+              <input type="email" class="form-input" name="email" placeholder="Enter Email">
+              <textarea name="" class="form-input" placeholder="Enter message"></textarea>
+              <button type="submit">Submit</button>
+            </form>
+        </section>
+
+    </main>
+    <div data-tf-live="01J3ST6E8ZZ9QC89ZQTT9V41CS"></div><script src="//embed.typeform.com/next/embed.js"></script>
+    <footer>
+        < this site belongs to <span>{ Rina  }</span> &copy; 2024 >
+    </footer>
+    
 </body>
 </html>

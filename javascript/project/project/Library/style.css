@@ -1,0 +1,35 @@
+#main{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap:20px;
+}
+.symbols img {
+    height: 300px;
+    width: 300px;
+    padding-left: 70px;
+    padding-top: 40px;
+    
+    
+}
+.symbols h2{
+    padding-left: 70px;   
+}
+
+.symbols:hover{
+    transition: 2s;
+    transform: scale(1.1);
+}
+ 
+
+span{
+   display: flex;
+   flex-direction: center;
+   justify-content: center;
+   align-items: center;
+   background:linear-gradient(50deg, orange ,white,green);
+  
+   
+}
+body{
+    background:linear-gradient(50deg,orange,white,green);
+}
